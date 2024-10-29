@@ -1,6 +1,13 @@
-.hederHandler {
+.headerHandler {
     display: flex;
     justify-content: space-between;
     height: 15vw;
     background-color: azure;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 15vw;
+    margin: 2vw 5vw 0 0;
 }
