@@ -1,0 +1,6 @@
+.hederHandler {
+    display: flex;
+    justify-content: space-between;
+    height: 15vw;
+    background-color: azure;
+}
