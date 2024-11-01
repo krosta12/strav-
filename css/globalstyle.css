@@ -1,0 +1,16 @@
+div,
+a,
+button,
+nav,
+input {
+    /* border: 2px solid black; */
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
