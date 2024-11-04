@@ -15,15 +15,30 @@ function renderCards() {
     const card = document.createElement("div");
     card.classList.add("card");
     card.innerHTML = `
-                <h2>${el.title}</h2>
-                <img src="${imgsLink.concat("food_".concat(el.id))}.png" alt="${
+      <h2>${el.title}</h2>
+      <img src="${imgsLink.concat("food_".concat(el.id))}.png" alt="${
       el.title
     }">
-                <p>${el.description}</p>
-            `;
+      <button onclick="addToCart(${el.id})">add to order</button>
+      <p>${el.description}</p>
+    `;
 
     targetElement.appendChild(card);
   });
+}
+
+function addToCart(id) {
+  let orders = JSON.parse(localStorage.getItem("orders")) || [];
+
+  const existingOrder = orders.find((order) => order.id === id);
+
+  if (existingOrder) {
+    existingOrder.quantity += 1;
+  } else {
+    orders.push({ id, quantity: 1 });
+  }
+
+  localStorage.setItem("orders", JSON.stringify(orders));
 }
 
 document.addEventListener("DOMContentLoaded", renderCards);
