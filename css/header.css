@@ -21,6 +21,6 @@ nav {
 }
 
 a {
-    height: 100vw;
     background-color: #ffffff00;
+    color: #000;
 }
