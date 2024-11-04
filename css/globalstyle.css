@@ -3,7 +3,9 @@ a,
 button,
 nav,
 input {
-    /* border: 2px solid black; */
+    /* border: 2px solid black; use for debug*/
+    border: none;
+    text-decoration: none;
 }
 
 .block {
@@ -13,4 +15,22 @@ input {
 
 a {
     text-decoration: none;
+}
+
+button {
+    background-color: #ffffff00;
+}
+
+main {
+    padding: 0 0 2vw 0;
+}
+
+footer {
+    background-color: #1c1c1c;
+    color: azure;
+}
+
+footer a {
+    text-decoration: underline;
+    color: aqua;
 }

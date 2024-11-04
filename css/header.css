@@ -15,10 +15,12 @@ nav {
 
 .toSmth>img {
     width: 2.5vw;
+    border: .15vw solid black;
+    border-radius: .7vw;
+    padding: .5vw;
 }
 
 a {
+    height: 100vw;
     background-color: #ffffff00;
-    border: .15vw solid black;
-    border-radius: .7vw;
 }
