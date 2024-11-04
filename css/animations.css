@@ -1,0 +1,10 @@
+* {
+    transition: all .3s;
+}
+
+a:hover {
+    font-size: 1.05vw;
+    background-color: #acacac;
+    border-radius: 2vw;
+    padding: 1vw;
+}

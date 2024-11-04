@@ -4,17 +4,15 @@
     justify-content: center;
 }
 
-.order {
-    display: block;
-}
-
 .checkMain {
     display: flex;
     justify-content: center;
 }
 
 .h3Handler {
+    display: block;
     text-align: center;
+    width: 100%;
 }
 
 .card {

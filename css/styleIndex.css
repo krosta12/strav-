@@ -16,7 +16,7 @@ main {
     justify-content: center;
 }
 
-.foodExample>button {
+.foodExample>a {
     margin: 1vw 1vw;
 }
 
