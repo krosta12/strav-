@@ -1,0 +1,14 @@
+.cardHandler {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 10vw;
+    padding: .3vw 6vw;
+}
+
+.card>img {
+    width: 15vw;
+}

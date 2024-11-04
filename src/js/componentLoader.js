@@ -1,4 +1,4 @@
-let components = ["header", "footer"];
+const components = ["header", "footer"];
 
 function loadComponents() {
   components.forEach(async (el) => {
