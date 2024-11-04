@@ -35,6 +35,18 @@ export const cardList = [
     description: "This is the sixth card",
     price: 2.75,
   },
+  {
+    id: 7,
+    title: "Name 7",
+    description: "This is the 7 card",
+    price: 2.75,
+  },
+  {
+    id: 8,
+    title: "Name 8",
+    description: "This is the 8 card",
+    price: 2.75,
+  },
 ];
 
 export const imgsLink = "/src/img/";

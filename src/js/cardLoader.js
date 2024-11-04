@@ -27,7 +27,9 @@ function renderCards() {
     }">
       <p>${el.description}</p>
       <p>${el.price}€</p>
-      <button onclick="addToCart(${el.id})">Добавить в корзину</button>
+      <button class="toShip" onclick="addToCart(${
+        el.id
+      })">Lisada korvisse</button>
     `;
 
     targetElement.appendChild(card);

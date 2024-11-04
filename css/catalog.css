@@ -4,17 +4,57 @@
     justify-content: center;
 }
 
+.order {
+    display: block;
+}
+
+.checkMain {
+    display: flex;
+    justify-content: center;
+}
+
+.h3Handler {
+    text-align: center;
+}
+
 .card {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     width: 10vw;
     padding: .3vw 6vw;
     background-color: #ffffff53;
     margin: .3vw;
     border-radius: .3vw;
+    padding: 2vw;
 }
 
 .card>img {
-    width: 15vw;
+    width: 13vw;
+}
+
+.toShip {
+    background-color: #524c4c8e;
+    padding: 2vw;
+}
+
+@media (max-width: 990px) {
+
+    .card {
+        margin: 1vw 2vw;
+        width: 30vw;
+    }
+
+    .card>img {
+        width: 33vw;
+    }
+}
+
+.remove-btn,
+.decrease-btn,
+.increase-btn {
+    background-color: #fff;
+    margin: .5vw;
+    padding: 2vw;
 }
