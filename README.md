@@ -10,9 +10,9 @@ Ostukorvis saab klient sisestada enda andmed ning need siis edastada. Kliendi an
   cd projektinimi
  ```
  Kui kausta veel ei eksisteeri, saad selle luua käsuga:
-     ```bash
-     mkdir projektid
-     ```
+   ```bash
+   mkdir projektid
+   ```
      
 2. **Kopeeri repostiiorium oma arvuti kausta**  
    Kirjuta järgmine käsk terminali, et kloonida projekt oma arvutisse:
