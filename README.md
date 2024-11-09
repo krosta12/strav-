@@ -7,9 +7,10 @@ Ostukorvis saab klient sisestada enda andmed ning need siis edastada. Kliendi an
 
 1. **Kopeeri repostiiorium oma arvutisse**  
    Ava terminal ja käivita järgmine käsk, et kloonida projekt oma arvutisse:
+    ```bash
    git clone https://github.com/krosta12/stravy.git
 
-2. Kui kloonimine on lõpule jõudnud, mine oma terminalis projektikausta:
+3. Kui kloonimine on lõpule jõudnud, mine oma terminalis projektikausta:
 bash
 Copy code
 cd projektinimi
