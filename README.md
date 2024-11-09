@@ -34,7 +34,7 @@ Veebileht sisaldab järgmisi kausti:
 - **src**  
   Src all on mitmed muud asjad, nagu näiteks veebilehe pildid, js (javascript).
 
-  ## Autorid
+## Autorid
 - krosta 12
 - TristanSaraskin
 - henrilipping
