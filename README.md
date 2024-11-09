@@ -9,7 +9,7 @@ Ostukorvis saab klient sisestada enda andmed ning need edastada. Kliendi andmed 
    ```bash
    cd projektinimi
    ```
-   Kui kausta veel ei eksisteeri, saad selle luua käsuga:
+   Kui kausta veel ei eksisteeri, saad selle luua käsuga (asenda "projektinimi" enda soovitud kausta nimega):
    ```bash
    mkdir projektid
    ```
