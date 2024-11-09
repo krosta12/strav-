@@ -21,5 +21,5 @@ Ostukorvis saab klient sisestada enda andmed ning need siis edastada. Kliendi an
     
 3. **Veebilehe avamine internetis**
     Veebilehe nägemiseks otsige üles oma kaust, kuhu te kloonisite projekti ning kaustas avage fail nimega
-     ```bash
-     index.html
+```bash
+   index.html
