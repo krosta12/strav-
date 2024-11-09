@@ -35,6 +35,6 @@ Veebileht sisaldab järgmisi kausti:
   Src all on mitmed muud asjad, nagu näiteks veebilehe pildid, js (javascript).
 
 ## Autorid
-- [krosta 12] (https://github.com/krosta12)
+- [krosta 12](https://github.com/krosta12)
 - TristanSaraskin
 - henrilipping
