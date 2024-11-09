@@ -8,7 +8,7 @@ Ostukorvis saab klient sisestada enda andmed ning need siis edastada. Kliendi an
 1. **Ava terminal ja, mine oma projektikausta (asenda "projektinimi" oma kausta nimega):**
   ```bash
   cd projektinimi
- ```
+   ```
  Kui kausta veel ei eksisteeri, saad selle luua käsuga:
    ```bash
    mkdir projektid
@@ -16,11 +16,11 @@ Ostukorvis saab klient sisestada enda andmed ning need siis edastada. Kliendi an
      
 2. **Kopeeri repostiiorium oma arvuti kausta**  
    Kirjuta järgmine käsk terminali, et kloonida projekt oma arvutisse:
-```bash
+  ```bash
    git clone https://github.com/krosta12/stravy.git
-```    
+  ```    
 3. **Veebilehe avamine internetis**
     Veebilehe nägemiseks otsige üles oma kaust, kuhu te kloonisite projekti ning kaustas avage fail nimega
- ```bash
+   ```bash
    index.html
- ```
+   ```
