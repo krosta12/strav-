@@ -29,9 +29,9 @@ Ostukorvis saab klient sisestada enda andmed ning need edastada. Kliendi andmed 
 Veebileht sisaldab järgmisi kausti:
 - **CSS**  
    Selles kaustas on css failid, mis kujundavad veebilehe stiili. Igal failil on konkreetne nimi, mis ütleb juba ära, kus seda kasutatakse.
-- **pages** 
+- **pages**  
   Pages all on veebilehe lehtede html-id. Nende failide pealkirjad ütlevad lühidalt ära, et millise lehega on tegu.
-- src
+- **src**  
   Src all on mitmed muud asjad, nagu näiteks veebilehe pildid, js (javascript).
 
   ## Autorid
