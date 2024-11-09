@@ -1,7 +1,7 @@
 # Pitsa tellimise veebileht
 
-Tegemist on pitsa tellimise veebilehega, kust saab valida endale sobiliku toidu välja, mis liigub edasi ostukorvi.
-Ostukorvis saab klient sisestada enda andmed ning need siis edastada. Kliendi andmed kuhugi välja ei jõua.
+Tegemist on pitsa tellimise veebilehega, kus saab valida endale sobiliku toidu välja ning liigutada see edasi ostukorvi.
+Ostukorvis saab klient sisestada enda andmed ning need edastada. Kliendi andmed kuhugi välja ei jõua.
 
 ## Paigaldamine
 
