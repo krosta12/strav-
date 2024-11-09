@@ -6,9 +6,9 @@ Ostukorvis saab klient sisestada enda andmed ning need siis edastada. Kliendi an
 ## Paigaldamine
 
 1. **Ava terminal ja, mine oma projektikausta (asenda "projektinimi" oma kausta nimega):**
-    ```bash
-    cd projektinimi
-     ```
+        ```bash
+        cd projektinimi
+         ```
  Kui kausta veel ei eksisteeri, saad selle luua käsuga:
      ```bash
      mkdir projektid
