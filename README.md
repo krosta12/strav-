@@ -7,12 +7,12 @@ Ostukorvis saab klient sisestada enda andmed ning need edastada. Kliendi andmed 
 
 1. **Ava terminal ja, mine oma projektikausta (asenda "projektinimi" oma kausta nimega):**
    ```bash
-    cd projektinimi
-    ```
+   cd projektinimi
+   ```
  Kui kausta veel ei eksisteeri, saad selle luua käsuga:
-     ```bash
-     mkdir projektid
-     ```
+   ```bash
+   mkdir projektid
+   ```
      
 2. **Kopeeri repostiiorium oma arvuti kausta**  
    Kirjuta järgmine käsk terminali, et kloonida projekt oma arvutisse:
