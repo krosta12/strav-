@@ -36,7 +36,8 @@ Veebileht sisaldab järgmisi kaustu:
    
 - **src**
       Selles kaustas on veebilehe erinevad ressursid, nagu JavaScripti failid ja pildid.
-## Authorid
+  
+## Autorid
 - [krosta 12](https://github.com/krosta12)
 - [TristanSaraskin](https://github.com/TristanSaraskin)
 - [henrilipping](https://github.com/henrilipping)
