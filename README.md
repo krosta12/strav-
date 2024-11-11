@@ -14,7 +14,9 @@ Tegemist on pitsa tellimise veebilehega, kus saab valida endale sobiva toidu ja 
    Kui kloonimine on lõpetatud, liigu projekti kausta:
    ```bash
    cd stravy
-3 **Veebilehe avamine brauseris**
+   ```
+   
+3. **Veebilehe avamine brauseris**  
    Projekti vaatamiseks ava kaust, kuhu sa kloonisid projekti, ja ava fail nimega index.html. Projekti korrektseks vaatamiseks soovitame kasutada kohalikku serverit:
       *Kui kasutad VS Code'i, installi laiendus Live Server ja käivita see, paremklõpsates index.html ja valides Open with Live Server.
       *Alternatiivselt, kui sul on Python, saad käivitada lihtsa kohaliku serveri järgmise käsuga:
