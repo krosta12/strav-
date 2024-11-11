@@ -28,13 +28,13 @@ Tegemist on pitsa tellimise veebilehega, kus saab valida endale sobiva toidu ja 
 ## Kasutamine
 Veebileht sisaldab järgmisi kaustu:
 
-- **CSS**
+- **CSS** - 
       Selles kaustas on kõik CSS failid, mis kujundavad veebilehe välimust. Iga fail on selgelt nimega, mis viitab selle kasutusalale.
    
-- **pages**
+- **pages** - 
       Selles kaustas on veebilehe HTML-lehed. Failide nimed viitavad sellele, millist lehte nad esindavad (nt menüü, ostukorv).
    
-- **src**
+- **src** - 
       Selles kaustas on veebilehe erinevad ressursid, nagu JavaScripti failid ja pildid.
   
 ## Autorid
