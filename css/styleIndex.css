@@ -82,3 +82,68 @@ main {
         height: auto;
     }
 }
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 20px;
+}
+
+.descriptionBlock {
+    background: #ff6347;
+    color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.descriptionBlock h2 {
+    font-size: 1.5rem;
+}
+
+.mainInfo {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.foodExample {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.foodExample a {
+    flex: 1;
+    text-align: center;
+}
+
+.foodExample img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.foodExample img:hover {
+    transform: scale(1.05);
+}
+
+.toShop a {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #ff6347;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.toShop a:hover {
+    background-color: #e55340;
+}

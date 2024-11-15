@@ -1,3 +1,4 @@
+const headerHTML = `
 <div class="headerHandler">
     <a href="/index.html">
         <h1>Stravõ restoraan</h1>
@@ -14,3 +15,4 @@
         </div>
     </nav>
 </div>
+`;

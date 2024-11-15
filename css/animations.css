@@ -1,10 +1,28 @@
-* {
+a {
     transition: all .3s;
 }
 
 a:hover {
-    font-size: 1.05vw;
-    background-color: #acacac;
-    border-radius: 2vw;
-    padding: 1vw;
+    box-shadow: 19px -9px 32px -9px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 19px -9px 32px -9px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 19px -9px 32px -9px rgba(0, 0, 0, 0.8);
+}
+
+header a:hover {
+    box-shadow: none;
+    color: rgb(50, 81, 81);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+body {
+    animation: fadeIn 1s ease-in-out;
 }
