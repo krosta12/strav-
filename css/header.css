@@ -1,26 +1,59 @@
 .headerHandler {
     display: flex;
-    justify-content: space-around;
     height: 15vw;
     background-color: azure;
     align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    justify-content: space-between;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     width: 10vw;
-    margin: 2vw 0 0 50vw;
 }
 
 .toSmth>img {
     width: 2.5vw;
+    height: auto;
     border: .15vw solid black;
     border-radius: .7vw;
     padding: .5vw;
 }
 
 a {
-    height: 100vw;
     background-color: #ffffff00;
+    color: #000;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.headerHandler>a {
+    border-radius: 1vw;
+    background-color: #5bf0a0;
+}
+
+.headerHandler h1 {
+    font-size: 1.8rem;
+}
+
+.headerHandler nav {
+    display: flex;
+    gap: 1rem;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+}
+
+nav img {
+    width: 30px;
+    height: 30px;
 }
