@@ -81,12 +81,22 @@ main {
         width: 50vw;
         height: auto;
     }
+
+    .foodExample {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foodExample>a {
+        width: 40vw;
+    }
 }
 
 main {
     max-width: 1200px;
     margin: 2rem auto;
-    padding: 0 20px;
+    padding: 10px 20px;
 }
 
 .descriptionBlock {

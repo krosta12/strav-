@@ -1,4 +1,4 @@
-a {
+header * {
     transition: all .3s;
 }
 
@@ -11,6 +11,10 @@ a:hover {
 header a:hover {
     box-shadow: none;
     color: rgb(50, 81, 81);
+}
+
+.headerHandler>a:hover {
+    background-color: #a06d6d;
 }
 
 @keyframes fadeIn {
