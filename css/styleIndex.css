@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+
 main {
     background-color: #484848;
 }
@@ -101,21 +104,22 @@ main {
 
 .descriptionBlock {
     background: #ff6347;
-    color: #fff;
-    padding: 2rem;
+    color: #ffffff;
+    padding: .5rem;
     border-radius: 10px;
     text-align: center;
     margin-bottom: 2rem;
+    font-family: "Cookie", cursive;
 }
 
 .descriptionBlock h2 {
-    font-size: 1.5rem;
+    font-size: 3rem;
 }
 
 .mainInfo {
     margin-bottom: 2rem;
     padding: 1rem;
-    background-color: #fff;
+    background-color: #bc8989;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
