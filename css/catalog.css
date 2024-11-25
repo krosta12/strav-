@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
 .cardHandler {
     display: flex;
     flex-wrap: wrap;
@@ -55,4 +57,8 @@
     background-color: #fff;
     margin: .5vw;
     padding: 2vw;
+}
+
+.title {
+    font-family: 'Cookie', cursive;
 }

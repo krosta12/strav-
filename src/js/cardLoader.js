@@ -21,7 +21,7 @@ function renderCards() {
     const card = document.createElement("div");
     card.classList.add("card");
     card.innerHTML = `
-      <h2>${el.title}</h2>
+      <h2 class="title">${el.title}</h2>
       <img src="${imgsLink.concat("food_".concat(el.id))}.png" alt="${
       el.title
     }">
