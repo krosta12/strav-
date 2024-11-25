@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Cookie&display=swap');
 
 
 main {
-    background-color: #484848;
+    background-color: #ffffff;
 }
 
 .mainInfo {
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 .mainInfo>p {
@@ -103,7 +104,7 @@ main {
 }
 
 .descriptionBlock {
-    background: #ff6347;
+    background: #c0412b;
     color: #ffffff;
     padding: .5rem;
     border-radius: 10px;
@@ -119,9 +120,12 @@ main {
 .mainInfo {
     margin-bottom: 2rem;
     padding: 1rem;
-    background-color: #bc8989;
+    color: #005836;
+    font-family: 'Cookie', cursive;
+    background-color: #f2e9db;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1.5rem;
 }
 
 .foodExample {
