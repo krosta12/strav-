@@ -1,7 +1,7 @@
 const headerHTML = `
 <div class="headerHandler">
     <a href="/index.html">
-        <h1>Stravõ restoraan</h1>
+        <h1>Stravõ restoran</h1>
     </a>
 
     <nav>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@400..700&display=swap');
+
 .headerHandler {
     display: flex;
     height: 15vw;
@@ -6,7 +8,9 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    border-radius: .5vw;
     justify-content: space-between;
+    font-family: "Dancing Script", cursive;
 }
 
 nav {
@@ -36,7 +40,7 @@ header {
 
 .headerHandler>a {
     border-radius: 1vw;
-    background-color: #5bf0a0;
+    background-color: #09b11d;
 }
 
 .headerHandler h1 {

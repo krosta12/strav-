@@ -35,7 +35,7 @@ function displayCart() {
 
   const totalElement = document.createElement("div");
   totalElement.className = "h3Handler";
-  totalElement.innerHTML = `<h3>Terve arv: ${totalCost.toFixed(2)}€</h3>`;
+  totalElement.innerHTML = `<h3>Terve arve: ${totalCost.toFixed(2)}€</h3>`;
   targetElement.appendChild(totalElement);
 
   addEventListenersToButtons();
