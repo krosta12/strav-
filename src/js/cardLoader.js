@@ -29,7 +29,7 @@ function renderCards() {
       <p>${el.price}€</p>
       <button class="toShip" onclick="addToCart(${
         el.id
-      })">Lisada korvisse</button>
+      })">Lisa korvi</button>
     `;
 
     targetElement.appendChild(card);
