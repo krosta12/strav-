@@ -14,7 +14,7 @@ export const cardList = [
   {
     id: 3,
     title: "Diavolo",
-    description: "Tomatikaste, juust, salaami, tšilli, basiilik",
+    description: "Tomatikaste, juust, salaami, tshilli, basiilik",
     price: 10.50,
   },
   {

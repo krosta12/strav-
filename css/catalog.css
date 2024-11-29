@@ -24,10 +24,16 @@
     text-align: center;
     width: 10vw;
     padding: .3vw 6vw;
-    background-color: #ffffff53;
+    background-color: #f2e9db;
     margin: .3vw;
     border-radius: .3vw;
     padding: 2vw;
+}
+
+.cardDescription {
+    color: #005836;
+    font-family: 'Cookie', cursive;
+    font-size: x-large;
 }
 
 .card>img {
@@ -35,7 +41,7 @@
 }
 
 .toShip {
-    background-color: #524c4c8e;
+    background-color: #c3a26d;
     padding: 2vw;
 }
 
@@ -48,7 +54,7 @@
 .toShip:active {
     transition: 0.1s;
     transform: scale(0.95);
-    background-color: #2422228e;
+    background-color: #805f2b;
 }
 
 @media (max-width: 990px) {
@@ -66,7 +72,7 @@
 .remove-btn,
 .decrease-btn,
 .increase-btn {
-    background-color: #524c4c8e;
+    background-color: #c3a26d;
     margin: .5vw;
     padding: 1vw;
     width: 6vw;
@@ -82,4 +88,5 @@
 
 .title {
     font-family: 'Cookie', cursive;
+    font-size: xx-large;
 }

@@ -25,7 +25,7 @@ function renderCards() {
       <img src="${imgsLink.concat("food_".concat(el.id))}.png" alt="${
       el.title
     }">
-      <p>${el.description}</p>
+      <p class='cardDescription'>${el.description}</p>
       <p>${el.price}€</p>
       <button class="toShip" onclick="addToCart(${
         el.id
