@@ -23,8 +23,8 @@ function displayCart() {
         "food_".concat(order.id)
       )}.png" alt="Food ID: ${order.id}">
       <p>kogus: <span id="quantity-${order.id}">${order.quantity}</span></p>
-      <p>hind 1tk: ${itemPrice}€</p>
-      <p>Terve arv: ${(itemPrice * order.quantity).toFixed(2)}€</p>
+      <p>Tükihind: ${itemPrice}€</p>
+      <p>Kokku: ${(itemPrice * order.quantity).toFixed(2)}€</p>
       <button class="increase-btn" data-id="${order.id}">Lisa</button>
       <button class="decrease-btn" data-id="${order.id}">Vähenda</button>
       <button class="remove-btn" data-id="${order.id}">Kustuta</button>

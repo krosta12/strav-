@@ -32,7 +32,7 @@ export const cardList = [
   {
     id: 6,
     title: "Neapolitan",
-    description: "Tomatikaste, mozzarella juust, basiilik",
+    description: "Tomatikaste, mozzarella, basiilik",
     price: 11.00,
   },
   {

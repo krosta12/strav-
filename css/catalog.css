@@ -39,6 +39,18 @@
     padding: 2vw;
 }
 
+.toShip:hover {
+    transition: 0.3s;
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px;
+}
+
+.toShip:active {
+    transition: 0.1s;
+    transform: scale(0.95);
+    background-color: #2422228e;
+}
+
 @media (max-width: 990px) {
 
     .card {
@@ -54,9 +66,18 @@
 .remove-btn,
 .decrease-btn,
 .increase-btn {
-    background-color: #fff;
+    background-color: #524c4c8e;
     margin: .5vw;
-    padding: 2vw;
+    padding: 1vw;
+    width: 6vw;
+}
+
+.remove-btn:hover,
+.decrease-btn:hover,
+.increase-btn:hover {
+    transition: 0.3s;
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px;
 }
 
 .title {

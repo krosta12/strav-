@@ -21,10 +21,15 @@ nav {
 
 .toSmth>img {
     width: 2.5vw;
-    height: auto;
+    height: 2.5vw;
     border: .15vw solid black;
     border-radius: .7vw;
     padding: .5vw;
+}
+
+.toSmth:hover {
+    transition: 0.2s;
+    transform: scale(1.15);
 }
 
 a {
@@ -33,7 +38,7 @@ a {
 }
 
 header {
-    background-color: #333;
+    background-image: linear-gradient(to right, green, red);
     color: #fff;
     padding: 1rem 0;
 }
