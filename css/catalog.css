@@ -74,8 +74,7 @@
 .increase-btn {
     background-color: #c3a26d;
     margin: .5vw;
-    padding: 1vw;
-    width: 6vw;
+    padding: 2vw;
 }
 
 .remove-btn:hover,
