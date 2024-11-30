@@ -3,7 +3,7 @@
 .headerHandler {
     display: flex;
     height: 15vw;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
@@ -38,18 +38,17 @@ a {
 }
 
 header {
-    background-image: linear-gradient(to right, green, red);
+    background-image: linear-gradient(to right, green, #c0412b);
     color: #fff;
     padding: 1rem 0;
 }
 
-.headerHandler>a {
-    border-radius: 1vw;
-    background-color: #09b11d;
-}
-
-.headerHandler h1 {
-    font-size: 1.8rem;
+.headerHandler>a,
+.headerHandler>a>img {
+    height: auto;
+    width: auto;
+    max-width: 16vw;
+    max-height: 8vw;
 }
 
 .headerHandler nav {

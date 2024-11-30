@@ -13,10 +13,6 @@ header a:hover {
     color: rgb(50, 81, 81);
 }
 
-.headerHandler>a:hover {
-    background-color: #a06d6d;
-}
-
 @keyframes fadeIn {
     from {
         opacity: 0;
