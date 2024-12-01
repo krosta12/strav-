@@ -1,28 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bokor&display=swap');
+
 main {
-    background-color: #484848;
+    background-color: #ffffff;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 10px 20px;
 }
 
 .mainInfo {
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    color: #005836;
+    font-family: 'Cookie', cursive;
+    background-color: #f2e9db;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1.5rem;
 }
 
 .mainInfo>p {
     width: 80%;
 }
 
+.descriptionBlock {
+    background: #c0412b;
+    color: #ffffff;
+    padding: .5rem;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: "Cookie", cursive;
+}
+
+.descriptionBlock h2 {
+    font-size: 3rem;
+}
+
+.comments {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    color: #abc7b2;
+    font-family: 'Cookie', cursive;
+    background-color: #f2e9db;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 3rem;
+}
+
 .foodExample {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
 }
 
 .foodExample>a {
-    margin: 1vw 1vw;
+    flex: 1;
+    text-align: center;
+    margin: 1vw;
+    width: 40vw;
+}
+
+.foodExample img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.foodExample img:hover {
+    transform: scale(1.05);
 }
 
 .foodLine {
-    height: 25vw;
     border-radius: 1vw;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 
 .toShop {
@@ -41,24 +98,34 @@ main {
     background-color: #3c7ee8;
     text-align: center;
     font-size: 1.3vw;
+    padding: 0.8rem 1.5rem;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.toShop>a:hover,
+.toShop>button:hover {
+    background-color: #e55340;
 }
 
 @media (max-width: 990px) {
-
     .foodExample {
         flex-direction: column;
+        align-items: center;
     }
 
     * {
         font-size: 3vw;
     }
 
-    h2 {
-        text-align: center;
-    }
-
     h1 {
         font-size: 3.8vw;
+    }
+
+    h2 {
+        text-align: center;
     }
 
     nav {
@@ -77,83 +144,7 @@ main {
         font-size: 7vw;
     }
 
-    .foodLine {
-        width: 50vw;
-        height: auto;
-    }
-
-    .foodExample {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
     .foodExample>a {
         width: 40vw;
     }
-}
-
-main {
-    max-width: 1200px;
-    margin: 2rem auto;
-    padding: 10px 20px;
-}
-
-.descriptionBlock {
-    background: #ff6347;
-    color: #fff;
-    padding: 2rem;
-    border-radius: 10px;
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-.descriptionBlock h2 {
-    font-size: 1.5rem;
-}
-
-.mainInfo {
-    margin-bottom: 2rem;
-    padding: 1rem;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.foodExample {
-    display: flex;
-    justify-content: space-around;
-    gap: 1rem;
-    margin-bottom: 2rem;
-}
-
-.foodExample a {
-    flex: 1;
-    text-align: center;
-}
-
-.foodExample img {
-    width: 100%;
-    border-radius: 10px;
-    transition: transform 0.3s;
-}
-
-.foodExample img:hover {
-    transform: scale(1.05);
-}
-
-.toShop a {
-    display: inline-block;
-    padding: 0.8rem 1.5rem;
-    background-color: #ff6347;
-    color: #fff;
-    font-weight: bold;
-    border-radius: 5px;
-    text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s;
-}
-
-.toShop a:hover {
-    background-color: #e55340;
 }

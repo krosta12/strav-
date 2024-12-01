@@ -21,15 +21,15 @@ function renderCards() {
     const card = document.createElement("div");
     card.classList.add("card");
     card.innerHTML = `
-      <h2>${el.title}</h2>
+      <h2 class="title">${el.title}</h2>
       <img src="${imgsLink.concat("food_".concat(el.id))}.png" alt="${
       el.title
     }">
-      <p>${el.description}</p>
-      <p>${el.price}€</p>
+      <p class='cardDescription'>${el.description}</p>
+      <p class="title">${el.price}€</p>
       <button class="toShip" onclick="addToCart(${
         el.id
-      })">Lisada korvisse</button>
+      })">Lisa korvi</button>
     `;
 
     targetElement.appendChild(card);

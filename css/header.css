@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@400..700&display=swap');
+
 .headerHandler {
     display: flex;
     height: 15vw;
-    background-color: azure;
+    background-color: rgb(255, 255, 255);
     align-items: center;
-    max-width: 1200px;
+    max-width: 70vw;
     margin: 0 auto;
     padding: 0 20px;
+    border-radius: .5vw;
     justify-content: space-between;
+    font-family: "Dancing Script", cursive;
 }
 
 nav {
@@ -17,10 +21,19 @@ nav {
 
 .toSmth>img {
     width: 2.5vw;
-    height: auto;
+    height: 2.5vw;
     border: .15vw solid black;
     border-radius: .7vw;
     padding: .5vw;
+}
+
+.Hlogo {
+    border: none;
+}
+
+.toSmth:hover {
+    transition: 0.2s;
+    transform: scale(1.15);
 }
 
 a {
@@ -29,18 +42,17 @@ a {
 }
 
 header {
-    background-color: #333;
+    background-image: linear-gradient(to right, green, #c0412b);
     color: #fff;
     padding: 1rem 0;
 }
 
-.headerHandler>a {
-    border-radius: 1vw;
-    background-color: #5bf0a0;
-}
-
-.headerHandler h1 {
-    font-size: 1.8rem;
+.headerHandler>a,
+.headerHandler>a>img {
+    height: auto;
+    width: auto;
+    max-width: 16vw;
+    max-height: 8vw;
 }
 
 .headerHandler nav {
@@ -51,9 +63,4 @@ header {
 nav div {
     display: flex;
     align-items: center;
-}
-
-nav img {
-    width: 30px;
-    height: 30px;
 }

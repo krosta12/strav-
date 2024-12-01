@@ -1,7 +1,7 @@
 const headerHTML = `
 <div class="headerHandler">
-    <a href="/index.html">
-        <h1>Stravõ restoraan</h1>
+    <a href="/index.html" title='mine pealehele'>
+        <img src="/src/img/logo.png" alt="Stravõ logo" class="Hlogo">
     </a>
 
     <nav>
