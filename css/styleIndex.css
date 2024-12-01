@@ -25,7 +25,6 @@ main {
 }
 
 .foodLine {
-    height: 25vw;
     border-radius: 1vw;
 }
 
@@ -82,8 +81,9 @@ main {
     }
 
     .foodLine {
-        width: 50vw;
+        max-width: 100%;
         height: auto;
+        object-fit: contain;
     }
 
     .foodExample {
@@ -99,6 +99,7 @@ main {
 
 main {
     max-width: 1200px;
+
     margin: 2rem auto;
     padding: 10px 20px;
 }
@@ -126,6 +127,17 @@ main {
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     font-size: 1.5rem;
+}
+
+.comments {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    color: #abc7b2;
+    font-family: 'Cookie', cursive;
+    background-color: #f2e9db;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 3rem;
 }
 
 .foodExample {
