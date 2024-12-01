@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bokor&family=Cookie&family=Ga+Maamli&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Cookie&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Ga+Maamli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 
 .cardHandler {
     display: flex;
@@ -25,7 +25,6 @@
     align-items: center;
     text-align: center;
     width: 10vw;
-    padding: .3vw 6vw;
     background-color: #f2e9db;
     margin: .3vw;
     border-radius: .3vw;
@@ -72,7 +71,6 @@
 }
 
 @media (max-width: 990px) {
-
     .card {
         margin: 1vw 2vw;
         width: 30vw;

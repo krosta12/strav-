@@ -3,7 +3,6 @@ a,
 button,
 nav,
 input {
-    /* border: 2px solid black; use for debug*/
     border: none;
     text-decoration: none;
 }
@@ -11,32 +10,6 @@ input {
 .block {
     display: flex;
     justify-content: center;
-}
-
-body {
-    background-color: #1c1c1c;
-}
-
-a {
-    text-decoration: none;
-}
-
-button {
-    background-color: #ffffff00;
-}
-
-main {
-    padding: 0 0 2vw 0;
-}
-
-footer {
-    background-color: #1c1c1c;
-    color: azure;
-}
-
-footer a {
-    text-decoration: underline;
-    color: aqua;
 }
 
 body {
@@ -56,4 +29,22 @@ a {
 
 a:hover {
     color: #ff6347;
+}
+
+button {
+    background-color: #ffffff00;
+}
+
+main {
+    padding: 0 0 2vw 0;
+}
+
+footer {
+    background-color: #1c1c1c;
+    color: azure;
+}
+
+footer a {
+    text-decoration: underline;
+    color: aqua;
 }
