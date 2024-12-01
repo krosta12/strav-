@@ -14,17 +14,18 @@ function displayCart() {
   orders.forEach((order) => {
     const card = document.createElement("div");
     card.classList.add("card");
+    const item = cardList.find(item => item.id === order.id)
     const itemPrice = getPriceById(order.id);
     totalCost += itemPrice * order.quantity;
 
     card.innerHTML = `
-      <h2>Food ID: ${order.id}</h2>
+      <h2 class = "title">${item.title}</h2>
       <img src="${imgsLink.concat(
         "food_".concat(order.id)
       )}.png" alt="Food ID: ${order.id}">
-      <p>kogus: <span id="quantity-${order.id}">${order.quantity}</span></p>
-      <p>Tükihind: ${itemPrice}€</p>
-      <p>Kokku: ${(itemPrice * order.quantity).toFixed(2)}€</p>
+      <p class = "toShipUnder">kogus: <span id="quantity-${order.id}">${order.quantity}</span></p>
+      <p class = "toShipUnder2">Tükihind: ${itemPrice}€</p>
+      <p class = "toShipUnder2">Kokku: ${(itemPrice * order.quantity).toFixed(2)}€</p>
       <button class="increase-btn" data-id="${order.id}">Lisa</button>
       <button class="decrease-btn" data-id="${order.id}">Vähenda</button>
       <button class="remove-btn" data-id="${order.id}">Kustuta</button>

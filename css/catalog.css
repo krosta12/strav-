@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Cookie&family=Ga+Maamli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Cookie&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Ga+Maamli&display=swap');
 
 .cardHandler {
     display: flex;
@@ -41,8 +43,20 @@
 }
 
 .toShip {
+    font-family: "Bokor";
+    font-size: 1.5vw;
     background-color: #c3a26d;
     padding: 2vw;
+}
+
+.toShipUnder {
+    font-family: "Bokor";
+    font-size: 1.5vw;
+}
+
+.toShipUnder2 {
+    font-family: "EB Garamond", italic;
+    font-size: 1.4vw;
 }
 
 .toShip:hover {
@@ -75,6 +89,8 @@
     background-color: #c3a26d;
     margin: .5vw;
     padding: 2vw;
+    font-family: "EB Garamond", italic;
+    font-size: 1.2vw;
 }
 
 .remove-btn:hover,

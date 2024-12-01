@@ -26,7 +26,7 @@ function renderCards() {
       el.title
     }">
       <p class='cardDescription'>${el.description}</p>
-      <p>${el.price}€</p>
+      <p class="title">${el.price}€</p>
       <button class="toShip" onclick="addToCart(${
         el.id
       })">Lisa korvi</button>
