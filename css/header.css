@@ -27,6 +27,10 @@ nav {
     padding: .5vw;
 }
 
+.Hlogo {
+    border: none;
+}
+
 .toSmth:hover {
     transition: 0.2s;
     transform: scale(1.15);
